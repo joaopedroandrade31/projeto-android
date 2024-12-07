@@ -182,7 +182,17 @@ aside > h3 {
 aside > ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
+    color: var(--cor5);
+    font-weight: bold;
     columns: 2;
+}
+
+aside abbr {
+    text-decoration: none;
+}
+
+aside abbr:hover {
+    text-decoration: underline;
 }
 
 footer {
